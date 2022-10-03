@@ -12,6 +12,6 @@ Documentación acerca de las materias: Algorítmica 1 y 2 - UPB.
 ### Tema 2: Union Find
 - [Concepto](https://github.com/PabloAcker/Algoritmica/tree/main/Cap1%20Estructura%20de%20Datos/Union%20Find)
 ### Tema 3: Segment tree
-- [Concepto]()
+- [Concepto](https://github.com/PabloAcker/Algoritmica/tree/main/Cap1%20Estructura%20de%20Datos/Segment%20Tree)
 ### Tema 4: BIT
-- [Concepto]()
+- [Concepto](https://github.com/PabloAcker/Algoritmica/tree/main/Cap1%20Estructura%20de%20Datos/BIT)
