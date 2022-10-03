@@ -4,7 +4,7 @@
 **UPB** -
 **Ingeniería de Sistemas Computacionales**
 -------------------------------------------------
-Documentación acerda de las materias: Algorítmica 1 y 2 - UPB.
+Documentación acerca de las materias: Algorítmica 1 y 2 - UPB.
 
 ## Capítulo 1: Estructura de Datos
 ### Tema 1: Trie
