@@ -5,6 +5,10 @@
 **Ingeniería de Sistemas Computacionales**
 -------------------------------------------------
 Documentación acerca de las materias: Algorítmica 1 y 2 - UPB.
+--------------------------------------------------
+El presente repositorio tiene la finalidad de documentar todo sobre lo aprendido en la materia de Algorítmica, como estructura de datos y distintos algotítmos.
+
+Cada estructura de datos o algorítmo contiene un archivo Readme.md con una breve introducción y conceptos sobre la misma, además de tener un vistazo del código (.cpp), así como tambien enlaces a sitios web o videos de apoyo para brindar un mejor apoyo.
 
 ## Capítulo 1: Estructura de Datos
 ### Tema 1: Trie
