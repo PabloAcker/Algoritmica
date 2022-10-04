@@ -19,3 +19,6 @@ Cada estructura de datos o algorítmo contiene un archivo Readme.md con una brev
 - [Concepto](https://github.com/PabloAcker/Algoritmica/tree/main/Cap1%20Estructura%20de%20Datos/Segment%20Tree)
 ### Tema 4: BIT
 - [Concepto](https://github.com/PabloAcker/Algoritmica/tree/main/Cap1%20Estructura%20de%20Datos/BIT)
+
+## Capítulo 2: Backtracking
+- [Concepto](https://github.com/PabloAcker/Algoritmica/tree/main/Cap2%20Backtracking)
