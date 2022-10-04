@@ -5,7 +5,7 @@
 ### Ventajas
 Las ventajas principales de los tries sobre los árboles de búsqueda binaria (BST) son:
 
-- Búsqueda de claves más rápida. La búsqueda de una clave de longitud {\displaystyle m}m tendrá en el peor de los casos un coste de O(m). Un BST tiene un coste de O(m log n), siendo n el número de elementos del árbol, ya que la búsqueda depende de la profundidad del árbol, logarítmica con el número de claves.
+- Búsqueda de claves más rápida. La búsqueda de una clave de longitud m tendrá en el peor de los casos un coste de O(m). Un BST tiene un coste de O(m log n), siendo n el número de elementos del árbol, ya que la búsqueda depende de la profundidad del árbol, logarítmica con el número de claves.
 - Menos espacio requerido para almacenar gran cantidad de cadenas pequeñas, puesto que las claves no se almacenan explícitamente.
 - Mejor funcionamiento para el algoritmo de búsqueda del prefijo más largo.
 
