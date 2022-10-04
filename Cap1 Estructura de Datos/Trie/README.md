@@ -4,7 +4,7 @@
 fdsfa
 
 ### Código Base
-- [Trie Array]()
+- [Trie Array](https://github.com/PabloAcker/Algoritmica/blob/main/Cap1%20Estructura%20de%20Datos/Trie/trieArray.cpp)
 - [Trie Map]()
 
 ### Complementos del Trie
