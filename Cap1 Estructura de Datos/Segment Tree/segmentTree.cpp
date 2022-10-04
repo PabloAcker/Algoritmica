@@ -82,8 +82,6 @@ void update(int inicio, int final, int nodoActual, int posicion, int valor ) {
 }
 
 int main() {
-
-}
     input;
     cin>>n;
     for(int i = 0; i < n; i++) {
