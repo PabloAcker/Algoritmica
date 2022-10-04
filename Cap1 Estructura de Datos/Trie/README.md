@@ -4,8 +4,8 @@
 fdsfa
 
 ### Código Base
-[Trie Array]()
-[Trie Map]()
+- [Trie Array]()
+- [Trie Map]()
 
 ### Complementos del Trie
 - Suffix Trie
