@@ -8,7 +8,7 @@
 - [Backtracking](https://github.com/PabloAcker/Algoritmica/blob/main/Cap1%20Estructura%20de%20Datos/Trie/trieArray.cpp)
 
 ### Complementos del Backtracking
-- [Problema del Sudoku]()
+- [Problema del Sudoku](https://github.com/PabloAcker/Algoritmica/blob/main/Cap2%20Backtracking/problemaSudoku.cpp)
 
 ### Bibliografía
 - [Video de apoyo 1](https://www.youtube.com/watch?v=AXjmTQ8LEoI&t=1s). Trie Data Structure
