@@ -1,4 +1,4 @@
-# Union Find
+<h1 align="center"> Union Find </h1>
 
 ### Concepto 
 Podemos determinar si dos elementos están en el mismo subconjunto comparando el resultado de dos operaciones Find. Si los dos elementos están en el mismo conjunto, tienen la misma representación; de lo contrario, pertenecen a conjuntos diferentes. Si se llama a la unión de dos elementos, fusione los dos subconjuntos a los que pertenecen los dos elementos.
