@@ -11,4 +11,4 @@
 - [Video de apoyo 1](). Trie Data Structure
 - [Video de apoyo 2](). Basic of backtracking
 - [Backtracking structure]()
-- [Paul Landaeta: Github Algorítmica2]([https://github.com/PaulLandaeta/algoritmica2/tree/master/contenido/Estructura_de_datos/trie](https://github.com/PaulLandaeta/algoritmica2/tree/master/contenido/Backtracking))
+- [Paul Landaeta: Github Algorítmica2](https://github.com/PaulLandaeta/algoritmica2/tree/master/contenido/Backtracking)
