@@ -1,4 +1,4 @@
-# BIT
+<h1 align="center"> BIT </h1>
 
 ### Concepto 
 fdsfa
