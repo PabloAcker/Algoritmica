@@ -1,29 +1,33 @@
 <h1 align="center"> BIT </h1>
 
 ### Concepto 
-Los nodos hojas del índice están almacenados en un orden aleatorio, es decir su posición en el disco no corresponde a la posición lógica según el orden del índice. Es lo mismo que una guía telefónica con las hojas mezcladas. Si buscas “Sánchez” pero primero abres la guía telefónica por “Rodríguez”, nada nos asegura que Rodríguez siga a Sánchez. Una base de datos necesita una segunda estructura para encontrar rápidamente los datos dentro de las hojas mezcladas: un árbol de búsqueda equilibrado, o sea, un BIT.
+El Binary Indexed Tree (BIT) o Fenwick Tree (por Peter Fenwick) es una estructura de datos que permite modificaciones y consultas en O(logn), siendo n la cantidad de elementos de referencia en la estructura (sea a el arreglo con todos esos elementos). Toma como referencia una función asociativa f y calcula respuestas parciales para optimizar el tiempo de consulta y de modificación.
+
+El BIT de manera natural permite almacenar y consultar datos respecto a un prefijo de a en el caso general si las actualizaciones son sobreescribibles; sin embargo, si f es invertible, entonces el BIT permite consultar cualquier rango de los elementos almacenados considerando que:
+
+al⊕al+1⊕…⊕ar=f−1(a1⊕…⊕ar,a1⊕…⊕al−1)
+
+Consideraremos que las respuestas parciales de la estructura serán almacenadas en un arreglo ft. La cantidad de memoria que necesita el BIT es O(n), siendo más específicos, necesitaría una cantidad cercada a n+1 estructuras del mismo tipo que los elementos de a.
 
 El Binary Indexed Tree es una estructura de datos que almacena los resultados de un operación determinada en un intérvalo [0..j]. Esto con el propósito de solamente tener que obtener el resultado de la operación inversa entre los intérvalos [0..i] y [0..j] para poder obtener el resultado de la operación para el intérvalo [i..j].
 
 Si bien se le dice "árbol binario indexado", en realidad el árbol como tal no existe, todos los datos en realidad están guardados en un array. Además, a diferencia de la estructura Segment Tree, no guardamos todos los valores del conjunto dado, priorizamos el almacenamiento de la operación realizada en intérvalos de tamaños mayores a 1.
 
-![image](https://user-images.githubusercontent.com/90888080/193952865-fe16a8a2-8142-4b76-b3b0-06839317c971.png)
+*¿Cómo guardar y consultar los datos?*
 
-Esta imagen muestra un ejemplo de un índice con 30 entradas. La lista doblemente enlazada establece el orden lógico entre los nodos hojas. La raíz y sus ramas permiten hacer una búsqueda rápida entre los nodos hojas.
+Lo que propone el BIT es almacenar en la posición pos el resultado de todos los elementos en el rango [pos−LSO(pos)+1,pos], donde LSO(pos) es el Least Significant One de pos, el cual es la máxima potencia de 2 tal que pos es divisible por ella
 
-En la ilustración destaca el nodo rama y sus nodos hojas a los que hace referencia. Cada entrada del nodo rama corresponde al valor más grande respecto a su nodo hoja. Por ejemplo, el valor más grande en el primer nodo hoja es 46, que está almacenado en su propia entrada del nodo rama. Lo mismo sucede para todos los nodos hojas, que al final de su nodo rama tienen los valores 46, 53, 57 y 83. De acuerdo con este plan, un nivel de rama está construido hasta que todos los nodos hojas estén cubiertos por un nodo rama.
+Ahora, asumiendo que mantenemos dicha forma de almacenar los datos, es sencillo notar que para obtener el resultado de todos los elementos del rango [1,pos] basta con usar la siguiente iteración:
 
-El siguiente nivel está construido de manera similar, pero encima del primer nivel de rama. Se repite este procedimiento hasta que todas las llaves llenan un único nodo, el nodo raíz. La estructura es un árbol de búsqueda equilibrado porque la profundidad del árbol es idéntica en cada posición; la distancia entre el nodo raíz y los nodos hojas es idéntica en todas las partes del árbol.
+node getPrefix(int pos){
+    if(pos == 0) return Neutro; // Elemento neutro porque no hay elementos en [1, 0]
+    return f(getPrefix(pos - LSO(pos)), ft[pos]); // Quitamos el LSO, obtenemos su respuesta y operamos con ft[pos]
+}
 
-Una vez creado el índice, la base de datos lo mantiene automáticamente. Se aplican cada insert, delete y update al índice y se conserva el árbol equilibrado, lo que genera una sobrecarga de mantenimiento para las operaciones de escritura. 
+Teorema: El algoritmo getPrefix(pos) obtiene adecuadamente la respuesta de los elementos en el rango [1,pos] para todo pos=0,1,…,n, siendo la respuesta para pos=0 el elemento neutro de la función f.
 
-*Recorrido*
+![image](https://user-images.githubusercontent.com/90888080/193960020-818acd7c-343c-455c-a5ee-79650a3522be.png)
 
-![image](https://user-images.githubusercontent.com/90888080/193953002-1beaaaa6-8a2e-44f0-a181-2664215de643.png)
-
-La anterior imagen es una muestra de un fragmento de un índice para ilustrar la búsqueda de la llave “57”. El recorrido del árbol empieza desde el nodo raíz del lado izquierdo. Cada entrada esta procesada en el orden ascendente hasta encontrar un valor superior o igual (>=) al valor buscado (57). En esta ilustración, se trata del valor 83. La base de datos sigue la referencia sobre el nodo rama correspondiente y repite el proceso hasta que el recorrido del árbol alcanza un nodo hoja.
-
-El recorrido del árbol es una operación muy eficiente. De hecho es tan eficiente que me refiero a ella como la primera potencia de la indexación. Funciona de manera casi instantánea incluso con grandes volúmenes de datos. Ello se debe principalmente a la característica equilibrada del árbol, lo que permite tener acceso a todos los elementos con el mismo número de etapas, y en segundo lugar, al crecimiento logarítmico de la profundidad del árbol. Eso significa que la profundidad del árbol crece lentamente en comparación al número de hojas. Hay índices reales con millones de registros que tienen una profundidad de cuatro o cinco. Es poco común encontrar una profundidad de seis. El apartado sobre la “Escalabilidad logarítmica” lo describe más en detalle.
 
 ### Código Base
 - [BIT](https://github.com/PabloAcker/Algoritmica/blob/main/Cap1%20Estructura%20de%20Datos/BIT/bit.cpp)
