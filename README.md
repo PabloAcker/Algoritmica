@@ -26,3 +26,5 @@ Cada estructura de datos o algorítmo contiene un archivo Readme.md con una brev
 ## Capítulo 4: Teoría de Grafos
 ### Tema 1: Algrítmo Kruskal
 - [Concepto]()
+### Tema 2: Algrítmo PRIM
+- [Concepto]()
