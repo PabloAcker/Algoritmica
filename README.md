@@ -22,3 +22,7 @@ Cada estructura de datos o algorítmo contiene un archivo Readme.md con una brev
 
 ## Capítulo 2: Backtracking
 - [Concepto](https://github.com/PabloAcker/Algoritmica/tree/main/Cap2%20Backtracking)
+
+## Capítulo 4: Teoría de Grafos
+### Tema 1: Algrítmo Kruskal
+- [Concepto]()
