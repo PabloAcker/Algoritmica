@@ -32,7 +32,7 @@ m el número de aristas del grafo y n el número de vértices, el algoritmo de K
 Con la condición de que las aristas estén ordenadas o puedan ser ordenadas en un tiempo lineal (por ejemplo, mediante el ordenamiento por cuentas o con el ordenamiento Radix), el algoritmo puede usar estructuras de datos de conjuntos disjuntos más complejas para ejecutarse en tiempos del orden de O(m α(n)), donde α es la inversa (tiene un crecimiento extremadamente lento) de la función de Ackermann.
 
 ### Código Base
-- [Kruskal](https://github.com/PabloAcker/Algoritmica/blob/main/Cap4%20Teor%C3%ADa%20de%20Grafos/Algor%C3%ADtmo%20Kruskal/kruskal.cpp)
+- [Kruskal](https://github.com/PabloAcker/Algoritmica/blob/main/Cap4%20Teor%C3%ADa%20de%20Grafos/Algor%C3%ADtmo%20PRIM/prim.cpp)
 
 ### Bibliografía
 - [Video de apoyo 1](https://www.youtube.com/watch?v=71UQH7Pr9kU&t=2s). Basic of Kruskal.
