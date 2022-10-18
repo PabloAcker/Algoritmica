@@ -18,10 +18,23 @@ En un árbol de expansión mínimo se cumple:
 
 - la cantidad de aristas del árbol es la cantidad de nodos menos uno.
 
+![image](https://user-images.githubusercontent.com/90888080/196331746-260beb35-ccac-47a8-8c53-02f2c1dbe489.png)
+
+![image](https://user-images.githubusercontent.com/90888080/196331761-a7e99a4c-8eba-4485-a6b0-de7de939d1bb.png)
+
+
+### Complejidad del algorítmo:
+m el número de aristas del grafo y n el número de vértices, el algoritmo de Kruskal muestra una complejidad O(m log m) o, equivalentemente, O(m log n), cuando se ejecuta sobre estructuras de datos simples. Los tiempos de ejecución son equivalentes porque:
+
+- m es a lo sumo n2 y log n2 = 2logn es O(log n).
+- ignorando los vértices aislados, los cuales forman su propia componente del árbol de expansión mínimo, n ≤ 2m, así que log n es O(log m).
+
+Con la condición de que las aristas estén ordenadas o puedan ser ordenadas en un tiempo lineal (por ejemplo, mediante el ordenamiento por cuentas o con el ordenamiento Radix), el algoritmo puede usar estructuras de datos de conjuntos disjuntos más complejas para ejecutarse en tiempos del orden de O(m α(n)), donde α es la inversa (tiene un crecimiento extremadamente lento) de la función de Ackermann.
+
 ### Código Base
-- [Búsqueda Binaria](https://github.com/PabloAcker/Algoritmica/blob/main/Cap3%20Programaci%C3%B3n%20Din%C3%A1mica/B%C3%BAsqueda%20Binaria/busquedaBinaria.cpp)
+- [Kruskal]()
 
 ### Bibliografía
-- [Video de apoyo](https://www.youtube.com/watch?v=fDKIpRe8GW4). Basic of Binary Search
-- [Conceptos de Búsqueda Binaria](https://es.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search#:~:text=La%20b%C3%BAsqueda%20binaria%20es%20un,ubicaciones%20posibles%20a%20solo%20una.)
-- [Paul Landaeta: Github Algorítmica2](https://github.com/PaulLandaeta/algoritmica2/tree/master/contenido/Busqueda_Binaria)
+- [Video de apoyo 1](https://www.youtube.com/watch?v=71UQH7Pr9kU&t=2s). Basic of Kruskal.
+- [Conceptos de Kruskal](https://www.youtube.com/watch?v=fAuF0EuZVCk)
+- [Paul Landaeta: Github Algorítmica2](https://github.com/PaulLandaeta/algoritmica2/tree/master/contenido/Teoria%20de%20Grafos/Kruskal)
