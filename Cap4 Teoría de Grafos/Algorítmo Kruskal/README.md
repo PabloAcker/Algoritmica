@@ -36,6 +36,6 @@ Con la condición de que las aristas estén ordenadas o puedan ser ordenadas en 
 
 ### Bibliografía
 - [Video de apoyo 1](https://www.youtube.com/watch?v=71UQH7Pr9kU&t=2s). Basic of Kruskal.
-- [Video de apoyo 2](https://www.youtube.com/watch?v=fAuF0EuZVCk). 
+- [Video de apoyo 2](https://www.youtube.com/watch?v=fAuF0EuZVCk). Kruskal Structure.
 - [Conceptos de Kruskal](https://es.wikipedia.org/wiki/Algoritmo_de_Kruskal#:~:text=El%20algoritmo%20de%20Kruskal%20es,del%20%C3%A1rbol%20es%20el%20m%C3%ADnimo.)
 - [Paul Landaeta: Github Algorítmica2](https://github.com/PaulLandaeta/algoritmica2/tree/master/contenido/Teoria%20de%20Grafos/Kruskal)
