@@ -17,7 +17,7 @@ Si todos los números son positivos o cero, la versión aproximada del problema 
 ![image](https://user-images.githubusercontent.com/90888080/196316939-d8ef2c13-a43f-4e60-a35d-8c7143a82e7d.png)
 
 ### Código Base
-- [Subset Sum]()
+- [Subset Sum](https://github.com/PabloAcker/Algoritmica/blob/main/Cap3%20Programaci%C3%B3n%20Din%C3%A1mica/Subset%20Sum/subsetSum.cpp)
 
 ### Bibliografía
 - [Video de apoyo 1](https://www.youtube.com/watch?v=s6FhG--P7z0&t=1s). Structure
