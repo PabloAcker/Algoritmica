@@ -17,10 +17,10 @@ El problema anterior también se puede resolver usando recursividad simple sin n
 ![image](https://user-images.githubusercontent.com/90888080/196320812-581ade15-b3ac-4467-a81d-83d21efd0bcf.png)
 
 ### Código Base
-- [Digit DP]()
+- [Digit DP](https://github.com/PabloAcker/Algoritmica/blob/main/Cap3%20Programaci%C3%B3n%20Din%C3%A1mica/Digit%20DP/digitDP.cpp)
 
 ### Bibliografía
-- [Video de apoyo 1](). Digit DP Structure
-- [Video de apoyo 2](). Basic of Digit DP
+- [Video de apoyo 1](https://www.youtube.com/watch?v=L1ZC9MI5yhY). Digit DP Structure
+- [Video de apoyo 2](https://www.youtube.com/watch?v=Pa4YwO8B8-w). Basic of Digit DP
 - [Conceptos de Digit DP](https://www.geeksforgeeks.org/digit-dp-introduction/)
 - [Paul Landaeta: Github Algorítmica2](https://github.com/PaulLandaeta/algoritmica2/tree/master/contenido/Programacion%20Dinamica/Digit)
