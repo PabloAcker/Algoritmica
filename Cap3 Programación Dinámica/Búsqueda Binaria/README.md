@@ -17,7 +17,7 @@ El problema anterior también se puede resolver usando recursividad simple sin n
 ![image](https://user-images.githubusercontent.com/90888080/196320812-581ade15-b3ac-4467-a81d-83d21efd0bcf.png)
 
 ### Código Base
-- [Búsqueda Binaria]()
+- [Búsqueda Binaria](https://github.com/PabloAcker/Algoritmica/blob/main/Cap3%20Programaci%C3%B3n%20Din%C3%A1mica/B%C3%BAsqueda%20Binaria/busquedaBinaria.cpp)
 
 ### Bibliografía
 - [Video de apoyo](https://www.youtube.com/watch?v=fDKIpRe8GW4). Basic of Binary Search
