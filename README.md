@@ -23,6 +23,14 @@ Cada estructura de datos o algorítmo contiene un archivo Readme.md con una brev
 ## Capítulo 2: Backtracking
 - [Concepto](https://github.com/PabloAcker/Algoritmica/tree/main/Cap2%20Backtracking)
 
+## Capítulo 3: Programación Dinámica
+### Tema 1: Búsqueda Binaria
+- [Concepto](https://github.com/PabloAcker/Algoritmica/tree/main/Cap3%20Programaci%C3%B3n%20Din%C3%A1mica/B%C3%BAsqueda%20Binaria) 
+### Tema 2: Digit DP
+- [Concepto](https://github.com/PabloAcker/Algoritmica/tree/main/Cap3%20Programaci%C3%B3n%20Din%C3%A1mica/Digit%20DP)
+### Tema 3: Subset Sum
+- [Concepto](https://github.com/PabloAcker/Algoritmica/tree/main/Cap3%20Programaci%C3%B3n%20Din%C3%A1mica/Subset%20Sum)
+
 ## Capítulo 4: Teoría de Grafos
 ### Tema 1: Algrítmo Kruskal
 - [Concepto](https://github.com/PabloAcker/Algoritmica/tree/main/Cap4%20Teor%C3%ADa%20de%20Grafos/Algor%C3%ADtmo%20Kruskal)
