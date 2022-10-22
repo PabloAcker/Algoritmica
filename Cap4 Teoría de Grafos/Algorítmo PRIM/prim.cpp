@@ -8,36 +8,33 @@ bool visitados[100000];
 
 int Prim(int verticeInicial){
     multiset< pair<int,pair<int, int>> > colaPrioridad;
-    colaPrioridad.insert(make_pair(0, make_pair(verticeInicial,verticeInicial))); //cola de prioridad de parejas de enteros (-distancia del nodo a F, nodo)
+    colaPrioridad.insert(make_pair(0, make_pair(verticeInicial,verticeInicial))); 
     int expansionMST = 0;
 
     while (!colaPrioridad.empty()){
         pair <int,pair<int, int>> verticeActual = *colaPrioridad.begin();
-        colaPrioridad.erase(colaPrioridad.begin()); //lo quitamos de la cola
+        colaPrioridad.erase(colaPrioridad.begin()); 
 
-        pair<int,int> verticeDireccionado = verticeActual.second; //vértice de Q a menor distancia de F
-        int peso = verticeActual.first; //distancia entre F y v
+        pair<int,int> verticeDireccionado = verticeActual.second; 
+        int peso = verticeActual.first;
 
         int verticeBegin = verticeDireccionado.first;
         int vertice = verticeDireccionado.second;
 
-        if (!visitados[vertice]){ //si no lo hemos visitado
+        if (!visitados[vertice]){ 
             visitados[vertice] = true;
             expansionMST += peso;
             
             grafoMST[verticeBegin].push_back(make_pair(peso,make_pair(verticeBegin,vertice)));
-            /*aca se crea el nuevo grafo
-            
-            */
-            for (int i = 0; i < grafo[vertice].size(); ++i){ //miramos sus vecinos
+            for (int i = 0; i < grafo[vertice].size(); ++i){
                 pair<int, int> verticeVecino = grafo[vertice][i].second;
                 int pesoVecino = grafo[vertice][i].first;
-                colaPrioridad.insert(make_pair(pesoVecino, verticeVecino)); // añadimos los vecinos conectados con u
+                colaPrioridad.insert(make_pair(pesoVecino, verticeVecino)); 
             }
         }   
     }
 
-    return expansionMST; // devolvemos el coste
+    return expansionMST; 
 }
 
 
