@@ -45,4 +45,4 @@ Cada estructura de datos o algorítmo contiene un archivo Readme.md con una brev
 ### Algoritmo de Rod Cutting
 - [Concepto]()
 ### Algoritmo de LIS
-- [Concepto]()
+- [Concepto](https://github.com/PabloAcker/Algoritmica/tree/main/Algoritmos%20de%20investigaci%C3%B3n/Algoritmo%20LIS)
