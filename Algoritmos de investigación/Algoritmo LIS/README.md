@@ -1,4 +1,4 @@
-<h1 align="center"> Floyd Warshall </h1>
+<h1 align="center"> LIS </h1>
 
 ### Concepto 
 
@@ -17,6 +17,10 @@ La idea es usar recursión para resolver este problema. Para cada artículo, hay
 - Excluye el elemento actual de LIS y repite para los elementos restantes.
 
 Finalmente, devuelve el valor máximo que obtenemos al incluir o excluir el elemento actual. El caso base de la recursividad sería cuando no quedan elementos.
+
+Podemos resolver este problema de forma ascendente. En el enfoque de abajo hacia arriba, primero resuelva los subproblemas más pequeños y luego resuelva los subproblemas más grandes a partir de ellos. El siguiente enfoque ascendente calcula L[i], para cada 0 <= i < n, que almacena la longitud de la subsecuencia creciente más larga del subarray arr[0…i] que termina con arr[i]. Calcular L[i], considere LIS de todos los valores más pequeños de i (decir j) ya calculado y elija el máximo L[j], dónde arr[j] es menor que el elemento actual arr[i]. Tiene el mismo tiempo de ejecución asintótico que Memoization pero sin sobrecarga de recursividad.
+
+La complejidad de la solución es O(n^2) y requiere O(n^2) espacio adicional, donde n es el tamaño de la secuencia dada.
 
 ### Código Base
 - [LIS](https://github.com/PabloAcker/Algoritmica/blob/main/Algoritmos%20de%20investigaci%C3%B3n/Algoritmo%20LIS/lis.cpp)
