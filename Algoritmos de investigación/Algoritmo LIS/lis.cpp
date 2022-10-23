@@ -38,15 +38,14 @@ void findLIS(vector<int> const &arr)
         LIS[i].push_back(arr[i]);
     }
  
-    // elimine el comentario del siguiente código para imprimir el contenido de `LIS`
-    /* for (int i = 0; i < n; i++)
+    for (int i = 0; i < n; i++)
     {
         cout << "LIS[" << i << "] — ";
         for (int j: LIS[i]) {
             cout << j << " ";
         }
         cout << endl;
-    } */
+    } 
  
     // `j` almacenará el índice de LIS
     int j = 0;
