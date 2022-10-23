@@ -15,7 +15,7 @@ Rod length: 4
  
 Best: Cut the rod into two pieces of length 2 each to gain revenue of 5 + 5 = 10
 
-###Parte práctica:
+### Parte práctica:
 Nos dan una array price[], donde la varilla de longitud i tiene un valor price[i-1]. La idea es simple: uno por uno, divida la barra dada de longitud n en dos partes: i y n-i. Recur para la barra de longitud n-i pero no dividas la vara de longitud i más lejos. Finalmente, tome el máximo de todos los valores. Esto produce la siguiente relación recursivo:
 
 rodcut(n) = max { price[i – 1] + rodCut(n – i) } where 1 <= i <= n
