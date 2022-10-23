@@ -26,6 +26,8 @@ Hemos visto que el problema se puede dividir en subproblemas más pequeños, que
 
 Como podemos ver, los mismos subproblemas (resaltados en el mismo color) se calculan repetidamente. Entonces, el problema también presenta subproblemas superpuestos. Sabemos que los problemas con subestructura óptima y subproblemas superpuestos pueden resolverse mediante programación dinámica, donde las soluciones de subproblemas son memorándumized en lugar de calculado y de nuevo.
 
+La complejidad temporal de la solución es O(n&2) y requiere O(n) espacio adicional, donde n es la longitud de la barra.
+
 ### Código Base
 - [Rod Cutting](https://github.com/PabloAcker/Algoritmica/blob/main/Algoritmos%20de%20investigaci%C3%B3n/Algoritmo%20Rod%20Cutting/rodCutting.cpp)
 
