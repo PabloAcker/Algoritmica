@@ -36,10 +36,12 @@ El algoritmo de Floyd-Warshall puede ser utilizado para resolver los siguientes 
 - Ruta óptima. En esta aplicación es interesante encontrar el camino del flujo máximo entre 2 vértices. Esto significa que en lugar de tomar los mínimos con el pseudocodigo anterior, se coge el máximo. Los pesos de las aristas representan las limitaciones del flujo. Los pesos de los caminos representan cuellos de botella; por ello, la operación de adición anterior es reemplazada por la operación mínimo.
 - Comprobar si un grafo no dirigido es bipartito.
 
+![image](https://user-images.githubusercontent.com/90888080/197367854-559bcf67-3e77-4ef7-a272-7be0c19c06cf.png)
+
 ### Código Base
 - [Floyd Warshall](https://github.com/PabloAcker/Algoritmica/blob/main/Algoritmos%20de%20investigaci%C3%B3n/Algoritmo%20Floyd%20Warshall/floydWarshall.cpp)
 
 ### Bibliografía
 - [Video de apoyo 1](https://www.youtube.com/watch?v=h-nmexY9gtA). Basic of Floyd Warshall.
 - [Video de apoyo 2](https://www.youtube.com/watch?v=YKgckdyFCL0). Floyd Warshall Structure.
-- [Conceptos de Floyd Warshall]()
+- [Conceptos de Floyd Warshall](https://es.wikipedia.org/wiki/Algoritmo_de_Floyd-Warshall#:~:text=En%20inform%C3%A1tica%2C%20el%20algoritmo%20de,v%C3%A9rtices%20en%20una%20%C3%BAnica%20ejecuci%C3%B3n.)
