@@ -12,6 +12,8 @@ kitten —> sitten (substitution of s for k)
 sitten —> sittin (substitution of i for e)
 sittin —> sitting (insertion of g at the end)
 
+![image](https://user-images.githubusercontent.com/90888080/197367165-220eeea2-350b-4534-b70a-543a07430440.png)
+
 ### Parte práctica:
 
 El problema de la distancia de edición tiene subestructura óptima. Eso significa que el problema se puede dividir en "subproblemas" más pequeños y simples, que se pueden dividir en subproblemas aún más simples, y así sucesivamente, hasta que, finalmente, la solución se vuelve trivial (recursividad).
@@ -55,7 +57,7 @@ Sustituir (Reemplazar) el carácter actual de X por el carácter actual de Y. El
 Es básicamente lo mismo que el caso 2, donde los dos últimos caracteres coinciden y nos movemos tanto en la string de origen como en la de destino, excepto que cuesta una operación de edición.
 
 ### Código Base
-- [Edit Distance]()
+- [Edit Distance](https://github.com/PabloAcker/Algoritmica/blob/main/Algoritmos%20de%20investigaci%C3%B3n/Algoritmo%20Edit%20Distance/editDistance.cpp)
 
 ### Bibliografía
 - [Video de apoyo 1](https://www.youtube.com/watch?v=4oTFJOQpmRY). Basic of Edit Distance.
