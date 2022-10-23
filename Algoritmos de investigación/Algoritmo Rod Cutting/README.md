@@ -5,7 +5,7 @@
 
 
 ### Código Base
-- [Rod Cutting]()
+- [Rod Cutting](https://github.com/PabloAcker/Algoritmica/blob/main/Algoritmos%20de%20investigaci%C3%B3n/Algoritmo%20Rod%20Cutting/rodCutting.cpp)
 
 ### Bibliografía
 - [Video de apoyo 1](). Basic of Rod Cutting.
