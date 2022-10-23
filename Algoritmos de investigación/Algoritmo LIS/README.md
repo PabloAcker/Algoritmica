@@ -22,6 +22,8 @@ Podemos resolver este problema de forma ascendente. En el enfoque de abajo hacia
 
 La complejidad de la solución es O(n^2) y requiere O(n^2) espacio adicional, donde n es el tamaño de la secuencia dada.
 
+![image](https://user-images.githubusercontent.com/90888080/197368507-aa5ed11a-0587-47ce-bf38-ac4fe3318f93.png)
+
 ### Código Base
 - [LIS](https://github.com/PabloAcker/Algoritmica/blob/main/Algoritmos%20de%20investigaci%C3%B3n/Algoritmo%20LIS/lis.cpp)
 
