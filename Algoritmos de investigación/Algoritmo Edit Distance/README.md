@@ -58,6 +58,7 @@ Es básicamente lo mismo que el caso 2, donde los dos últimos caracteres coinci
 
 ### Código Base
 - [Edit Distance](https://github.com/PabloAcker/Algoritmica/blob/main/Algoritmos%20de%20investigaci%C3%B3n/Algoritmo%20Edit%20Distance/editDistance.cpp)
+- [Edit Distance Mejorado](https://github.com/PabloAcker/Algoritmica/blob/main/Algoritmos%20de%20investigaci%C3%B3n/Algoritmo%20Edit%20Distance/editDistanceMejorado.cpp)
 
 ### Bibliografía
 - [Video de apoyo 1](https://www.youtube.com/watch?v=4oTFJOQpmRY). Basic of Edit Distance.
