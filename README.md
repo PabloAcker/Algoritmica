@@ -39,10 +39,10 @@ Cada estructura de datos o algorítmo contiene un archivo Readme.md con una brev
 
 ## Algoritmos de investigación
 ### ALgoritmo de Edit Distance
-- [Concepto]()
+- [Concepto](https://github.com/PabloAcker/Algoritmica/tree/main/Algoritmos%20de%20investigaci%C3%B3n/Algoritmo%20Edit%20Distance)
 ### Algoritmo de Floyd Warshall
-- [Concepto]()
+- [Concepto](https://github.com/PabloAcker/Algoritmica/tree/main/Algoritmos%20de%20investigaci%C3%B3n/Algoritmo%20Floyd%20Warshall)
 ### Algoritmo de Rod Cutting
-- [Concepto]()
+- [Concepto](https://github.com/PabloAcker/Algoritmica/tree/main/Algoritmos%20de%20investigaci%C3%B3n/Algoritmo%20Rod%20Cutting)
 ### Algoritmo de LIS
 - [Concepto](https://github.com/PabloAcker/Algoritmica/tree/main/Algoritmos%20de%20investigaci%C3%B3n/Algoritmo%20LIS)
