@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+
+int LIS(int arr[], int i, int n, int prev)
  
 // Función iterativa para encontrar la subsecuencia creciente más larga
 // de una array dada
