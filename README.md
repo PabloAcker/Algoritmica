@@ -42,7 +42,7 @@ Cada estructura de datos o algorítmo contiene un archivo Readme.md con una brev
 - [Concepto](https://github.com/PabloAcker/Algoritmica/tree/main/Cap4%20Teor%C3%ADa%20de%20Grafos/Algoritmo%20Edmonds%20Karp)
 
 ## Capítulo 5: Geometría computacional
-- [Concepto]()
+- [Concepto](https://github.com/PabloAcker/Algoritmica/tree/main/Cap5%20Geometr%C3%ADa%20Computacional)
 
 ## Algoritmos de investigación
 ### ALgoritmo de Edit Distance
