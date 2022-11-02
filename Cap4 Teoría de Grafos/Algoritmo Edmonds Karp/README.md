@@ -25,7 +25,7 @@ Ahora se sigue el siguiente procedimiento:
 
 ### Bibliografía
 - [Video de apoyo 1](https://www.youtube.com/watch?v=RppuJYwlcI8). Basic of Edmonds Karp.
-- [Video de apoyo 2](https://www.youtube.com/watch?v=GiN3jRdgxU4). Edmonds Karp Structure.
+- [Video de apoyo 2](https://www.youtube.com/watch?v=SqGeM3FYkfo). Edmonds Karp Structure.
 - [Conceptos de Edmonds Karp](https://es.wikipedia.org/wiki/Algoritmo_de_Edmonds-Karp)
 - [Conceptos de Edmonds Karp](http://www.famaf.unc.edu.ar/~penazzi/EKcompl.pdf)
 - [Paul Landaeta: Github Algorítmica2](https://github.com/PaulLandaeta/algoritmica2/tree/master/contenido/Teoria%20de%20Grafos/Edmonds_Karp)
