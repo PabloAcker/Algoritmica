@@ -53,3 +53,6 @@ Cada estructura de datos o algorítmo contiene un archivo Readme.md con una brev
 - [Concepto](https://github.com/PabloAcker/Algoritmica/tree/main/Algoritmos%20de%20investigaci%C3%B3n/Algoritmo%20Rod%20Cutting)
 ### Algoritmo de LIS
 - [Concepto](https://github.com/PabloAcker/Algoritmica/tree/main/Algoritmos%20de%20investigaci%C3%B3n/Algoritmo%20LIS)
+
+## Ejercicios de práctica
+- [Ejercicios](https://github.com/PabloAcker/Algoritmica/tree/main/Ejercicios%20de%20pr%C3%A1ctica)
