@@ -30,6 +30,8 @@ Usemos nuestra intuición geométrica. Si pensamos que sobre cada punto de P cla
 Para ver de mejor manera la demostración del algoritmo de Convex Hull de Andrew's monotone chain podemos ver el siguiente video:
 [Convex Hull Andrew's monotone chain](https://www.youtube.com/watch?v=dw120YcIav8)
 
+![GrahamScanDemo](https://user-images.githubusercontent.com/90888080/199371647-00d01373-8bc2-4fe5-b307-92a47d4a392a.gif)
+
 ### Ejemplos de casos de la vida real
 - Tu primo, Jose, quiere abrir una cadena de tiendas de videojuegos en la región, pero quiere hacerlo, lógicamente, lo mejor posible. Dado que ya existe otra cadena de la competencia, y suponiendo que la gente suele preferir la que está más cerca, porque los precios serán más o menos iguales y los juegos idénticos, Jose te pide que le sitúes sus tiendas para que el área de influencia de las mismas, sea mayor que la de la competencia.
 
