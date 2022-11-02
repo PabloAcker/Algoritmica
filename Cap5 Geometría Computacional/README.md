@@ -32,11 +32,17 @@ Para ver de mejor manera la demostración del algoritmo de Convex Hull de Andrew
 
 ### Ejemplos de casos de la vida real
 - Tu primo, Jose, quiere abrir una cadena de tiendas de videojuegos en la región, pero quiere hacerlo, lógicamente, lo mejor posible. Dado que ya existe otra cadena de la competencia, y suponiendo que la gente suele preferir la que está más cerca, porque los precios serán más o menos iguales y los juegos idénticos, Jose te pide que le sitúes sus tiendas para que el área de influencia de las mismas, sea mayor que la de la competencia.
+
 ![image](https://user-images.githubusercontent.com/90888080/199371137-e8621ec3-b91d-4fa5-96eb-6a151bcfbc44.png)
--Por otra parte, tu suegro está terminando de montar una sala de conferencias en su nuevo hotel y necesita saber dónde colocar la pantalla para que el orador sea visto por el mayor número de asistentes. Eso sí, nada de salas rectangulares ni siquiera con planta poligonal regular, que tu suegro es muy moderno y ha diseñado algo inspirado en esto:
+
+- Por otra parte, tu suegro está terminando de montar una sala de conferencias en su nuevo hotel y necesita saber dónde colocar la pantalla para que el orador sea visto por el mayor número de asistentes. Eso sí, nada de salas rectangulares ni siquiera con planta poligonal regular, que tu suegro es muy moderno y ha diseñado algo inspirado en esto:
+
 ![image](https://user-images.githubusercontent.com/90888080/199371163-50bd416b-cd26-48d6-a60b-6f8914c619f1.png)
+
 - Ah, y de parte de tu suegra, que a ver si pasas por la peluquería nueva para colocar los focos nuevos de forma que iluminen la sala lo mejor posible, con el menor número de focos, que los que sobren se los llevará para la playa.
+
 - En otro mensaje, tienes los datos que te manda un colega tuyo, topógrafo y romántico, que ha estado midiendo en la sierra de su pueblo el entorno de la casa de sus abuelos, porque quiere que un arquitecto le diseñe la cubierta de su nuevo chalet en la playa, imitando la orografía de ese paisaje de infancia:
+
 ![image](https://user-images.githubusercontent.com/90888080/199371102-fbb0263b-0408-4a8d-a565-4b396bc3a084.png)
 
 ### Código Base
