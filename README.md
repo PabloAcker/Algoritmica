@@ -55,4 +55,5 @@ Cada estructura de datos o algorítmo contiene un archivo Readme.md con una brev
 - [Concepto](https://github.com/PabloAcker/Algoritmica/tree/main/Algoritmos%20de%20investigaci%C3%B3n/Algoritmo%20LIS)
 
 ## Ejercicios de práctica
-- [Ejercicios](https://github.com/PabloAcker/Algoritmica/tree/main/Ejercicios%20de%20pr%C3%A1ctica)
+- [Ejercicios UVA y variados](https://github.com/PabloAcker/Algoritmica/tree/main/Ejercicios%20de%20pr%C3%A1ctica)
+- [Ejercicios Contest Vjudge 1](https://github.com/PabloAcker/Algoritmica/tree/main/Ejercicios%20de%20pr%C3%A1ctica/Ejercicios%20Contest%20Vjudge%201)
